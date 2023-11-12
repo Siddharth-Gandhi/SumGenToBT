@@ -40,9 +40,19 @@ bash download.sh
 
 There are two model sizes, so we can perform experiments with **MODEL_SIZE=base|large**.
 
+
 ## Train
 
 ### Step1. Summarization and Generation
+
+### Download data
+```bash
+cd data/sumgen
+bash download.sh
+bash prepare.sh
+```
+
+### Training SG model
 
 ```bash
 cd sumgen
@@ -50,6 +60,11 @@ bash run.sh GPU_ID [MODEL_SIZE]
 ```
 
 ### Step2. Back-translation
+
+### Download data
+TBD
+
+### Training BT model
 
 ```bash
 cd plbart
