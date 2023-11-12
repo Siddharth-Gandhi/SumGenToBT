@@ -5,14 +5,14 @@ LIB=$CURRENT_DIR/third_party
 mkdir -p $LIB
 
 # conda create --name sgb python==3.6.10
-conda create --name sgb python=3.8
-conda activate sgb
+# conda create --name sgb python=3.8
+# conda activate sgb
 # conda config --add channels conda-forge
 # conda config --add channels pytorch
 which pip
 # conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
 # conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install six scikit-learn stringcase ply slimit astunparse submitit
 pip install transformers cython
 pip install fairseq==0.10.2
