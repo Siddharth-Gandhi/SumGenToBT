@@ -17,7 +17,16 @@ Official code release of our work, [Summarize and Generate to Back-translate: Un
 ## Setup
 
 Setting up a conda environment is recommended to run experiments. 
-We assume [anaconda](https://www.anaconda.com/) is installed. The additional requirements 
+We assume [anaconda](https://www.anaconda.com/) is installed. 
+
+First do
+```bash
+conda create --name sgb python=3.8
+conda activate sgb
+```
+
+
+The additional requirements 
 (noted in [requirements.txt](https://github.com/wasiahmad/SumGenToBT/blob/main/requirements.txt)) can be installed by 
 running the following script:
 
