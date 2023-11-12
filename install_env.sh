@@ -28,3 +28,5 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 cd $CURRENT_DIR
 
 pip install sacrebleu=="1.2.11" javalang tree_sitter psutil fastBPE sentencepiece prettytable
+pip install datasets
+pip install numpy==1.19.5
