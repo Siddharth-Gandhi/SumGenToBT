@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x # Add this line to enable debugging
+
 CURRENT_DIR=`pwd`
 HOME_DIR=`realpath ../..`;
 
